@@ -12,7 +12,7 @@ def _jupyter_nbextension_paths():
         # directory in the `nbextension/` namespace
         dest="urlargs",
         # _also_ in the `nbextension/` namespace
-        require="urlargs/index")]
+        require="urlargs/static/index.js")]
 
 def load_jupyter_server_extension(nbapp):
     nbapp.log.info("urlargs module enabled!")
