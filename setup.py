@@ -11,6 +11,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     platforms='any',
+    package_data={'urlargs': ['static/*']},
     classifiers=[
         'Development Status :: 4 - Beta',
         'License :: OSI Approved :: BSD License',
